@@ -3,7 +3,7 @@
 
 **Author:** Fardeen Shroff  
 **Date:** 2025-01-30  
-**Repository Link:** [GitHub Repo](https://github.com/fardeenshroff/FPGA-ImageProcessing)  
+**Repository Link:** [GitHub Repo](https://github.com/fardeenshroff/FPGA-ImageProcessing)
 
 ---
 
