@@ -49,7 +49,7 @@ This project leverages **FPGA parallel processing** to enhance digital images in
 ## **🔹 FPGA Design**  
 ### **📂 Project Structure**
 
-📂 FPGA-ImageProcessing │── 📂 fgpa_design/           # Verilog/VHDL Image Processing Modules │── 📂 opencv_testing/        # Python + OpenCV for Software Reference │── 📂 hardware_integration/  # FPGA to PC Communication │── 📂 reports/               # Performance Comparison & Research │── 📂 docs/                  # Documentation, Reports, Research Papers │── README.md                 # Project Overview │── LICENSE                   # Open-Source License
+📂 FPGA-ImageProcessing │── 📂 fpga_design/           # Verilog/VHDL Image Processing Modules │── 📂 opencv_testing/        # Python + OpenCV for Software Reference │── 📂 hardware_integration/  # FPGA to PC Communication │── 📂 reports/               # Performance Comparison & Research │── 📂 docs/                  # Documentation, Reports, Research Papers │── README.md                 # Project Overview │── LICENSE                   # Open-Source License
 
 ### **📌 Implemented FPGA Modules:**  
 ✅ **Edge Detection (Sobel Filter)** – `edge_detection.vhd`  
