@@ -1,21 +1,21 @@
-# 🚀 FGPA-Based Image Processing  
+# 🚀 FPGA-Based Image Processing  
 ### **Enhancing Digital Images Using Hardware Acceleration**  
 
 **Author:** Fardeen Shroff  
 **Date:** 2025-01-30  
-**Repository Link:** [GitHub Repo](https://github.com/fardeenshroff/FGPA-ImageProcessing)
+**Repository Link:** [GitHub Repo](https://github.com/fardeenshroff/FPGA-ImageProcessing)
 
 ---
 
 ## **🔹 Project Overview**  
-This project implements **real-time image processing on FGPA** using **Verilog/VHDL**, enabling edge detection, noise reduction, and contrast adjustment. The system integrates **OpenCV-based software validation** to compare software and hardware performance.  
+This project implements **real-time image processing on FPGA** using **Verilog/VHDL**, enabling edge detection, noise reduction, and contrast adjustment. The system integrates **OpenCV-based software validation** to compare software and hardware performance.  
 
 ---
 
 ## **📌 Table of Contents**  
 1️⃣ [Introduction](#-introduction)  
 2️⃣ [Objectives](#-objectives)  
-3️⃣ [FGPA Design](#-fpga-design)  
+3️⃣ [FPGA Design](#-fpga-design)  
 4️⃣ [Software Validation (OpenCV)](#-software-validation-opencv)  
 5️⃣ [Testing & Results](#-testing--results)  
 6️⃣ [Analysis & Performance Evaluation](#-analysis--performance-evaluation)  
@@ -28,10 +28,10 @@ This project implements **real-time image processing on FGPA** using **Verilog/V
 
 ## **🔹 Introduction**  
 Modern image processing applications require **high-speed performance**, which traditional CPUs struggle to provide.  
-This project leverages **FGPA parallel processing** to enhance digital images in real-time.  
+This project leverages **FPGA parallel processing** to enhance digital images in real-time.  
 
 🔹 **Key Technologies Used:**  
-✅ **FGPA Development** – Verilog/VHDL  
+✅ **FPGA Development** – Verilog/VHDL  
 ✅ **Hardware Synthesis** – Xilinx Vivado / Intel Quartus Prime  
 ✅ **Software Validation** – Python + OpenCV  
 ✅ **Edge Detection, Noise Filtering, Histogram Equalization**  
@@ -39,19 +39,19 @@ This project leverages **FGPA parallel processing** to enhance digital images in
 ---
 
 ## **🎯 Objectives**  
-🔹 Design a **hardware-accelerated** image processing system using FGPA  
+🔹 Design a **hardware-accelerated** image processing system using FPGA  
 🔹 Implement **real-time edge detection, filtering, and enhancement**  
-🔹 Compare FGPA processing with **Python + OpenCV** results  
-🔹 Optimize FGPA resource usage for **low power and high speed**  
+🔹 Compare FPGA processing with **Python + OpenCV** results  
+🔹 Optimize FPGA resource usage for **low power and high speed**  
 
 ---
 
-## **🔹 FGPA Design**  
+## **🔹 FPGA Design**  
 ### **📂 Project Structure**
 
-📂 FGPA-ImageProcessing │── 📂 fgpa_design/           # Verilog/VHDL Image Processing Modules │── 📂 opencv_testing/        # Python + OpenCV for Software Reference │── 📂 hardware_integration/  # FGPA to PC Communication │── 📂 reports/               # Performance Comparison & Research │── 📂 docs/                  # Documentation, Reports, Research Papers │── README.md                 # Project Overview │── LICENSE                   # Open-Source License
+📂 FPGA-ImageProcessing │── 📂 fgpa_design/           # Verilog/VHDL Image Processing Modules │── 📂 opencv_testing/        # Python + OpenCV for Software Reference │── 📂 hardware_integration/  # FPGA to PC Communication │── 📂 reports/               # Performance Comparison & Research │── 📂 docs/                  # Documentation, Reports, Research Papers │── README.md                 # Project Overview │── LICENSE                   # Open-Source License
 
-### **📌 Implemented FGPA Modules:**  
+### **📌 Implemented FPGA Modules:**  
 ✅ **Edge Detection (Sobel Filter)** – `edge_detection.vhd`  
 ✅ **Noise Reduction (Gaussian Filter)** – `gaussian_filter.vhd`  
 ✅ **Histogram Equalization** – `histogram_equal.vhd`  
@@ -60,7 +60,7 @@ This project leverages **FGPA parallel processing** to enhance digital images in
 ---
 
 ## **🔹 Software Validation (OpenCV)**  
-To compare FGPA results with software, OpenCV is used to process the same images.  
+To compare FPGA results with software, OpenCV is used to process the same images.  
 
 ### **📌 Python Code for Edge Detection (`opencv_sobel.py`)**  
 ```python
@@ -86,7 +86,7 @@ cv2.destroyAllWindows()
 
 🔹 Testing & Results
 
-✅ Tested FGPA Design on:
+✅ Tested FPGA Design on:
 
 Xilinx Spartan-6
 
@@ -97,7 +97,7 @@ Zynq-7000 SoC
 
 ✅ Comparison of Processing Time:
 
-✅ Final FGPA vs OpenCV Image Results:
+✅ Final FPGA vs OpenCV Image Results:
 
 🔹 Left – Original Image | Right – Processed Image
 
@@ -106,14 +106,14 @@ Zynq-7000 SoC
 
 📌 Analysis & Performance Evaluation
 
-📌 Advantages of FGPA Over Software Processing:
-✅ Real-time Processing: FGPA operates 10x faster than software
+📌 Advantages of FPGA Over Software Processing:
+✅ Real-time Processing: FPGA operates 10x faster than software
 ✅ Parallel Processing: Multiple pixels processed simultaneously
 ✅ Low Power Consumption: Only 0.7W vs 3.2W (CPU)
 
 📌 Challenges:
-🔸 FGPA requires more development time compared to OpenCV
-🔸 Optimization is necessary for resource-constrained FGPAs
+🔸 FPGA requires more development time compared to OpenCV
+🔸 Optimization is necessary for resource-constrained FPGAs
 
 
 ---
@@ -121,7 +121,7 @@ Zynq-7000 SoC
 🔹 Future Improvements
 
 🚀 Real-time video processing on FGPA
-🚀 AI-enhanced filtering (Deep Learning on FGPA)
+🚀 AI-enhanced filtering (Deep Learning on FPGA)
 🚀 FGPA Cloud Acceleration (AWS F1 Instances)
 
 
@@ -132,8 +132,8 @@ Zynq-7000 SoC
 🔹 Requirements
 
 📌 Hardware:
-✅ Xilinx FGPA (Spartan-6 / Zynq-7000)
-✅ Intel FGPA (Cyclone IV / Arria)
+✅ Xilinx FPGA (Spartan-6 / Zynq-7000)
+✅ Intel FPGA (Cyclone IV / Arria)
 
 📌 Software:
 ✅ Vivado / Quartus Prime – FPGA Synthesis
@@ -142,8 +142,8 @@ Zynq-7000 SoC
 🔹 Installation Steps
 
 # Clone Repository
-git clone https://github.com/fardeenshroff/FGPA-ImageProcessing.git
-cd FGPA-ImageProcessing
+git clone https://github.com/fardeenshroff/FPGA-ImageProcessing.git
+cd FPGA-ImageProcessing
 
 # Install Dependencies
 pip install opencv-python numpy
@@ -174,4 +174,4 @@ python3 opencv_testing/opencv_sobel.py
 
 📌 Final Thoughts
 
-This project demonstrates real-time FGPA-based image processing with hardware acceleration. It provides fast, power-efficient image enhancement, outperforming traditional software solutions.
+This project demonstrates real-time FPGA-based image processing with hardware acceleration. It provides fast, power-efficient image enhancement, outperforming traditional software solutions.
