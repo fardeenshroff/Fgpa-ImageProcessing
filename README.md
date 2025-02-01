@@ -51,7 +51,3 @@ Future Works
 Optimization of image processing algorithms.
 
 Exploration of additional image processing techniques.
-
-
-on, and it sticks to the basics as per your request. Let me know if you'd like further changes!
-
